@@ -14,4 +14,29 @@
   width: 28px;
   aspect-ratio: 1;
   border-radius: 100%;
+  border: none;
+  opacity: 100%;
+  transition: all 0.3s ease-in-out;
+}
+
+.header .hapticLink {
+  text-decoration: none;
+}
+
+.header .hapticLink:visited {
+  text-decoration: none;
+  color: initial;
+}
+
+.header a:hover .profile-pic,
+.header .hapticLink:hover {
+  opacity: 50%;
+}
+
+.header span {
+  display: inline-flex;
+  align-items: center;
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 1.8rem;
 }
