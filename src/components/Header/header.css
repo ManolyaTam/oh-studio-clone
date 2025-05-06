@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.header span {
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 1.8rem;
+}
+
+.header .profile-pic {
+  width: 28px;
+  aspect-ratio: 1;
+  border-radius: 100%;
+}
