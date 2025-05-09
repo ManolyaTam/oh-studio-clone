@@ -1,13 +1,11 @@
 import './App.css'
-import Gallery from './components/Gallery/Gallery'
-import Header from './components/Header/Header'
+import OhStudio from './pages/OH Studio/OhStudio'
 
 function App() {
 
   return (
     <>
-    <Header />
-    <Gallery />
+      <OhStudio />
     </>
   )
 }
