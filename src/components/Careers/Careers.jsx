@@ -1,4 +1,4 @@
-import Bullet from "../common/bullet"
+import BulletPoint from "../common/BulletPoint"
 import "./careers.css"
 const Careers = () => {
   const openRoles = [
@@ -12,11 +12,11 @@ const Careers = () => {
   return (
     <div id="careers" className="careers">
       <div className="headline">
-        <p><Bullet /> Working at Haptic</p>
+        <p><BulletPoint> Working at Haptic</BulletPoint></p>
         <p className="careers-heading">Great work starts with <br /> great people — join us.</p>
       </div>
       <div className="open-roles">
-        <p><Bullet /> Open Roles</p>
+        <p><BulletPoint> Open Roles</BulletPoint></p>
         {openRoles && openRoles.length > 0 ? (
           openRoles.map((role) => (
             <div
