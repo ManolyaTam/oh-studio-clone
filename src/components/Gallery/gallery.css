@@ -2,16 +2,17 @@
   width: 100vw;
   overflow: hidden;
   margin: 85px 0;
+  position: relative;
 }
 
 .gallery {
   display: flex;
   width: max-content;
   animation: scrollGallery 20s linear infinite;
+  position: relative;
 }
 
 .gallery-item {
-  border: 1px solid #555;
   width: 240px;
   height: 292px;
   display: flex;
@@ -19,6 +20,11 @@
   justify-content: center;
   margin-right: 20px;
   flex-shrink: 0;
+}
+
+.gallery p.not-found {
+ width: 100vw;
+ text-align: center;
 }
 
 /* smooth infinite scroll */

@@ -1,32 +1,24 @@
 /**
  * @typedef {Object} GalleryItem
- * @property {string} id - unique identifier
- * @property {string} company - name of the company
- * @property {string} image - url/path of the image
- * @property {string} [description] - optional description
- * @property {string} icon - icon image path
+ * @property {string} id
+ * @property {string} company
+ * @property {string} image
+ * @property {string} icon
+ * @property {string} [description]
  */
 
 /**
- * list of items to be rendered in scrollable gallery
- *  @type {GalleryItem[]} 
+ * @returns {Promise<GalleryItem[]>}
  */
-const list = [
-  {
-    id: "1",
-  },
-  {
-    id: "2",
-  },
-  {
-    id: "3",
-  },
-  {
-    id: "4",
-  },
-  {
-    id: "5",
-  }
-]
-
-export { list }
+export const fetchGalleryItems = async () => {
+  return fetch("http://localhost:3001/api/gallery")
+    .then(response => response.json())
+    .then(data => {
+      console.log("Fetched data:", data);
+      return data.items;
+    })
+    .catch(error => {
+      console.error("Error fetching gallery items:", error);
+      return [];
+    });
+};
