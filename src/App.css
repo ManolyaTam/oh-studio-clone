@@ -3,3 +3,7 @@
   letter-spacing: -0.04rem;
   color: #9c9c9c;
 }
+
+body {
+  margin-inline: 0;
+}
