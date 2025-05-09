@@ -2,6 +2,7 @@
   font-family: "Helvetica Now Display Bold", "Helvetica Now Display Bold Placeholder", sans-serif;
   letter-spacing: -0.04rem;
   color: #9c9c9c;
+  scroll-behavior: smooth
 }
 
 body {
