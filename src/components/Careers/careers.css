@@ -1,0 +1,33 @@
+.careers {
+  background-color: #482f22;
+  width: 100%;
+  height: 680px;
+  color: #ff6937;
+  padding: 40px 40px 160px;
+  box-sizing: border-box;
+}
+
+
+.careers .careers-heading {
+  font-size: 64px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.careers .open-role {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #7f4129;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.careers .open-role h3 {
+  font-size: 48px;
+  font-weight: 100;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.careers .open-role h3:hover {
+  color: #ff6937;
+}
