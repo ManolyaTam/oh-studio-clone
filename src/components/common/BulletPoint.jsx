@@ -1,6 +1,6 @@
 const BulletPoint = ({ children }) => {
   return (
-    <p
+    <div
       style={
         {
           fontSize: 16,
@@ -11,7 +11,7 @@ const BulletPoint = ({ children }) => {
     >
       <div style={{fontSize: 30}}>&#x2022;</div> 
       {children}
-      </p>
+      </div>
   )
 }
 

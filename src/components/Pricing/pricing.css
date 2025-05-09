@@ -1,6 +1,17 @@
 .pricing {
   height: 930px;
   background-color: black;
-  padding: 28px 40px 60px;
+  padding: 28px 0 60px;
   color: white;
+}
+
+.pricing .heading {
+  margin-bottom: 120px;
+  padding-left: 40px;
+  box-sizing: border-box;
+}
+
+.pricing-options {
+  display: flex;
+  justify-content: space-between;
 }

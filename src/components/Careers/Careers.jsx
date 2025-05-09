@@ -12,11 +12,11 @@ const Careers = () => {
   return (
     <div id="careers" className="careers">
       <div className="headline">
-        <p><BulletPoint> Working at Haptic</BulletPoint></p>
+        <BulletPoint> Working at Haptic</BulletPoint>
         <p className="careers-heading">Great work starts with <br /> great people — join us.</p>
       </div>
       <div className="open-roles">
-        <p><BulletPoint> Open Roles</BulletPoint></p>
+        <BulletPoint> Open Roles</BulletPoint>
         {openRoles && openRoles.length > 0 ? (
           openRoles.map((role) => (
             <div
