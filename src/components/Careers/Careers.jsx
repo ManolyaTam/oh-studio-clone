@@ -1,3 +1,4 @@
+import Bullet from "../common/bullet"
 import "./careers.css"
 const Careers = () => {
   const openRoles = [
@@ -11,11 +12,11 @@ const Careers = () => {
   return (
     <div id="careers" className="careers">
       <div className="headline">
-        <p>&#x2022; Working at Haptic</p>
+        <p><Bullet /> Working at Haptic</p>
         <p className="careers-heading">Great work starts with <br /> great people — join us.</p>
       </div>
       <div className="open-roles">
-        <p>&#x2022; Open Roles</p>
+        <p><Bullet /> Open Roles</p>
         {openRoles && openRoles.length > 0 ? (
           openRoles.map((role) => (
             <div
