@@ -13,7 +13,7 @@ const Header = () => {
         <br />
         <span>with startups globally.</span><br />
         <span>Currently steering the</span><br />
-        <span>ship at&nbsp;<img src="/haptic-logo.png" alt="" /><a className="hapticLink" href="/haptic">Haptic</a></span><br />
+        <span>ship at&nbsp;<img src="/haptic-logo.png" alt="" /><a className="hapticLink" href="/haptic/">Haptic</a></span><br />
       </div>
       <div><SpinningCross /></div>
     </div>

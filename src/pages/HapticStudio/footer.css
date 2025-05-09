@@ -1,0 +1,9 @@
+.haptic-studio {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.haptic-content {
+  flex: 1;
+}
