@@ -1,0 +1,32 @@
+.gallery-container {
+  width: 100vw;
+  overflow: hidden;
+  margin: 85px 0;
+}
+
+.gallery {
+  display: flex;
+  width: max-content;
+  animation: scrollGallery 20s linear infinite;
+}
+
+.gallery-item {
+  border: 1px solid #555;
+  width: 240px;
+  height: 292px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+  flex-shrink: 0;
+}
+
+/* smooth infinite scroll */
+@keyframes scrollGallery {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
