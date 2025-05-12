@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 46" width="43" height="46" style="width: 43px; height: 46px; overflow: hidden; border: none;">
+  <style>
+    @keyframes scroll {
+      0% { transform: translateX(-100%); }
+      100% { transform: translateX(0%); }
+    }
+
+    .marquee {
+      animation: scroll 3s linear infinite;
+    }
+  </style>
+
+  <g class="marquee">
+    <g>
+      <path fill="black" d="M0.58,34.05 C7.04,31.21 11.57,24.66 11.57,17.03 C11.57,9.39 7.04,2.84 0.58,0 C0.58,0 0.58,34.05 0.58,34.05z" transform="translate(0,0)" />
+      <path fill="black" d="M0.58,34.05 C7.04,31.21 11.57,24.66 11.57,17.03 C11.57,9.39 7.04,2.84 0.58,0 C0.58,0 0.58,34.05 0.58,34.05z" transform="translate(10,0)" />
+      <path fill="black" d="M0.58,34.05 C7.04,31.21 11.57,24.66 11.57,17.03 C11.57,9.39 7.04,2.84 0.58,0 C0.58,0 0.58,34.05 0.58,34.05z" transform="translate(20,0)" />
+      <path fill="black" d="M0.58,34.05 C7.04,31.21 11.57,24.66 11.57,17.03 C11.57,9.39 7.04,2.84 0.58,0 C0.58,0 0.58,34.05 0.58,34.05z" transform="translate(30,0)" />
+      <path fill="black" d="M0.58,34.05 C7.04,31.21 11.57,24.66 11.57,17.03 C11.57,9.39 7.04,2.84 0.58,0 C0.58,0 0.58,34.05 0.58,34.05z" transform="translate(40,0)" />
+      <path fill="black" d="M0.58,34.05 C7.04,31.21 11.57,24.66 11.57,17.03 C11.57,9.39 7.04,2.84 0.58,0 C0.58,0 0.58,34.05 0.58,34.05z" transform="translate(50,0)" />
+      <path fill="black" d="M0.58,34.05 C7.04,31.21 11.57,24.66 11.57,17.03 C11.57,9.39 7.04,2.84 0.58,0 C0.58,0 0.58,34.05 0.58,34.05z" transform="translate(60,0)" />
+      <path fill="black" d="M0.58,34.05 C7.04,31.21 11.57,24.66 11.57,17.03 C11.57,9.39 7.04,2.84 0.58,0 C0.58,0 0.58,34.05 0.58,34.05z" transform="translate(70,0)" />
+      <path fill="black" d="M0.58,34.05 C7.04,31.21 11.57,24.66 11.57,17.03 C11.57,9.39 7.04,2.84 0.58,0 C0.58,0 0.58,34.05 0.58,34.05z" transform="translate(80,0)" />
+      <path fill="black" d="M0.58,34.05 C7.04,31.21 11.57,24.66 11.57,17.03 C11.57,9.39 7.04,2.84 0.58,0 C0.58,0 0.58,34.05 0.58,34.05z" transform="translate(90,0)" />
+    </g>
+  </g>
+</svg>

@@ -3,9 +3,25 @@ import "./haptic-header.css"
 const HapticHeader = () => {
   return (
     <div id="hero" className="haptic-header">
-      <h1>Haptic</h1>
+      <img src="/images/haptic-heading.png" />
       <p>
-        We help ambitious<br />teams turn bold visions<br /> into lasting impact      </p>
+        We help
+        <img
+          height={60}
+          style={{ position: "relative", top: 20, margin: 6 }}
+          src="/svg/header.svg"
+          alt=""
+        />
+        ambitious<br />
+        teams turn bold visions<br />
+        into
+        <img
+          src="/images/haptic-heading2.png"
+          alt=""
+          style={{ position: "relative", top: 8, margin: 6 }}
+        />
+        lasting impact
+      </p>
     </div>
   )
 }

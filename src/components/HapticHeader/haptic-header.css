@@ -11,12 +11,6 @@
   box-sizing: border-box;
 }
 
-.haptic-header h1 {
-  font-size: 64px;
-  margin: 0;
-  font-weight: bold;
-}
-
 .haptic-header p {
   font-size: 64px;
   font-family: 'Times New Roman', Times, serif;

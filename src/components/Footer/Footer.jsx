@@ -3,7 +3,7 @@ import "./footer.css";
 const Footer = () => {
   return (
     <div className="footer">
-      <div className="logo"><img src="/haptic.png" alt="haptic" /></div>
+      <div className="logo"><img src="/images/haptic.png" alt="haptic" /></div>
       <div className="footer-info">
         <div className="links">
           <div>

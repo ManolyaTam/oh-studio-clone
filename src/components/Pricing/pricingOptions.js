@@ -1,7 +1,7 @@
 export const pricingOptions = [
   {
     id:1,
-    icon: "/tactile.png",
+    icon: "/images/tactile.png",
     type: "Subscription",
     title: "Tactile",
     description:
@@ -19,8 +19,8 @@ export const pricingOptions = [
   },
   {
     id:2,
-    icon: "/immersive.png",
-    type: "subscription",
+    icon: "/images/immersive.png",
+    type: "Subscription",
     title: "Immersive",
     description:
     "For teams who alongside product work need support on brand, marketing and website design & build.",
@@ -38,7 +38,7 @@ export const pricingOptions = [
   },
   {
     id:3,
-    icon: "/sprint.png",
+    icon: "/images/sprint.png",
     type: "Fast Turnaround",
     title: "Sprint",
     description:
