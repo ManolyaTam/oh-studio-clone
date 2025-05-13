@@ -4,7 +4,7 @@ import { partnersData } from "../../services/partnersData";
 
 const Partners = () => {
   return (
-    <div className='partners'>
+    <div id="projects" className='partners'>
       <BulletPoint>Partners + Projects</BulletPoint>
       <ul>
         {partnersData.map((partner) => (

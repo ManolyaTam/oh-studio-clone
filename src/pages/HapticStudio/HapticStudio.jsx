@@ -7,10 +7,13 @@ import Carosel from "../../components/Carosel/Carosel.jsx";
 import WhyHaptic from "../../components/WhyHaptic/WhyHaptic.jsx";
 import CompaniesCarosel from "../../components/CompaniesCarosel/CompaniesCarosel.jsx";
 import Partners from "../../components/Partners/Partners.jsx";
+import NavMenu from "../../components/NavMenu/NavMenu.jsx";
 
 const HapticStudio = () => {
   return (
     <div className="haptic-studio">
+      <NavMenu />
+
       <Header />
       <Carosel />
       <img src="/svg/black-white.svg" alt="" style={{ width: "100%", marginTop: 120 }} />

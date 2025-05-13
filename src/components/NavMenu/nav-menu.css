@@ -1,0 +1,89 @@
+.nav-wrapper {
+  position: fixed;
+  top: 40px;
+  right: 40px;
+  z-index: 100;
+}
+
+.menu-btn {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background: #EBEBEB;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
+
+.bar {
+  position: absolute;
+  width: 15px;
+  height: 2px;
+  background-color: black;
+  transition: all 0.4s ease;
+  z-index: 50;
+}
+
+.bar1 {
+  transform: translateY(-4px);  
+}
+
+.bar2 {
+  transform: translateY(4px);
+}
+
+.menu-btn:hover .bar1 {
+  transform: rotate(90deg);
+}
+
+.menu-btn:hover .bar2 {
+  transform: rotate(0deg);
+}
+
+.menu-btn.open .bar1 {
+  transform: rotate(45deg);
+}
+
+.menu-btn.open .bar2 {
+  transform: rotate(-45deg);
+}
+
+.nav-items {
+  position: absolute;
+  top: 0;
+  right: 0px;
+  display: flex;
+  gap: 20px;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateX(100%); 
+  transition: all 0.4s ease;
+}
+
+.nav-items.show {
+  opacity: 1;
+  pointer-events: all;
+  transform: translateX(-12%);
+  right: 0;
+}
+
+.nav-items a {
+  background: black;
+  color: white;
+  font-weight: bold;
+  padding: 12px 20px;
+  border-radius: 100px;
+  text-decoration: none;
+  transition: transform 0.4s ease, opacity 0.4s ease;
+}
+
+.nav-items a:hover {
+  color: black;
+  background: #EBEBEB;
+}
