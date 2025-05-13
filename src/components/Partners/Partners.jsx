@@ -1,111 +1,77 @@
 import "./partners.css";
 import BulletPoint from "../common/BulletPoint";
 
-const Partners = () => {
+const partnersData = [
+  {
+    id: 1,
+    name: "Momentify",
+    details: "Brand, Web, Product",
+    year: 2024,
+    image: "https://framerusercontent.com/images/WtDkhEjQ1TNDVDYNkBVhFoJnfU.jpg?scale-down-to=1024",
+  },
+  {
+    id: 2,
+    name: "Norby",
+    details: "Motion",
+    year: 2025,
+    image: "https://framerusercontent.com/images/WtDkhEjQ1TNDVDYNkBVhFoJnfU.jpg?scale-down-to=1024",
+  },
+  {
+    id: 3,
+    name: "Spark",
+    details: "Brand, Web, Product",
+    year: 2024,
+    image: "https://framerusercontent.com/images/5z0ZyBUqdAoedRuSZyNWGGNEzLs.jpg?scale-down-to=1024",
+  },
+  {
+    id: 4,
+    name: "Google",
+    details: "Web, Product",
+    year: 2024,
+    image: "https://framerusercontent.com/images/WtDkhEjQ1TNDVDYNkBVhFoJnfU.jpg?scale-down-to=1024",
+  },
+  {
+    id: 5,
+    name: "Harvard",
+    details: "Brand, Web, Product",
+    year: 2025,
+    image: "https://framerusercontent.com/images/WtDkhEjQ1TNDVDYNkBVhFoJnfU.jpg?scale-down-to=1024",
+  },
+  {
+    id: 6,
+    name: "Neon Horizons",
+    details: "Brand, Product",
+    year: 2025,
+    image: "https://framerusercontent.com/images/WtDkhEjQ1TNDVDYNkBVhFoJnfU.jpg?scale-down-to=1024",
+  },
+];
 
+const Partners = () => {
   return (
     <div className='partners'>
       <BulletPoint>Partners + Projects</BulletPoint>
       <ul>
-        <li>
-          <div className="partner">
-            <h3>Momentify</h3>
-            <p className="partner-details">
-              <span>Brand, Web, Product</span><span>2024</span>
-            </p>
-            <img
-              src="https://framerusercontent.com/images/WtDkhEjQ1TNDVDYNkBVhFoJnfU.jpg?scale-down-to=1024"
-              alt="Momentify"
-              className="partner-image"
-              width="500px"
-              height="370px"
-              data-image="https://framerusercontent.com/images/WtDkhEjQ1TNDVDYNkBVhFoJnfU.jpg?scale-down-to=1024"
-            />
-          </div>
-        </li>
-        <li>
-          <div className="partner">
-            <h3>Norby</h3>
-            <p className="partner-details">
-              <span>Motion</span><span>2025</span>
-            </p>
-            <img
-              src="https://framerusercontent.com/images/WtDkhEjQ1TNDVDYNkBVhFoJnfU.jpg?scale-down-to=1024"
-              alt="Norby"
-              className="partner-image"
-              width="500px"
-              height="370px"
-              data-image="https://framerusercontent.com/images/WtDkhEjQ1TNDVDYNkBVhFoJnfU.jpg?scale-down-to=1024"
-            />
-          </div>
-        </li>
-        <li>
-          <div className="partner">
-            <h3>Spark</h3>
-            <p className="partner-details">
-              <span>Brand, Web, Product</span><span>2024</span>
-            </p>
-            <img
-              src="https://framerusercontent.com/images/5z0ZyBUqdAoedRuSZyNWGGNEzLs.jpg?scale-down-to=1024"
-              alt="Spark"
-              className="partner-image"
-              width="500px"
-              height="370px"
-              data-image="https://framerusercontent.com/images/5z0ZyBUqdAoedRuSZyNWGGNEzLs.jpg?scale-down-to=1024"
-            />
-          </div>
-        </li>
-        <li>
-          <div className="partner">
-            <h3>Google</h3>
-            <p className="partner-details">
-              <span>Web, Product</span><span>2024</span>
-            </p>
-            <img
-              src="https://framerusercontent.com/images/WtDkhEjQ1TNDVDYNkBVhFoJnfU.jpg?scale-down-to=1024"
-              alt="Google"
-              className="partner-image"
-              width="500px"
-              height="370px"
-              data-image="https://framerusercontent.com/images/WtDkhEjQ1TNDVDYNkBVhFoJnfU.jpg?scale-down-to=1024"
-            />
-          </div>
-        </li>
-        <li>
-          <div className="partner">
-            <h3>Harvard</h3>
-            <p className="partner-details">
-              <span>Brand, Web, Product</span><span>2025</span>
-            </p>
-            <img
-              src="https://framerusercontent.com/images/WtDkhEjQ1TNDVDYNkBVhFoJnfU.jpg?scale-down-to=1024"
-              alt="Harvard"
-              className="partner-image"
-              width="500px"
-              height="370px"
-              data-image="https://framerusercontent.com/images/WtDkhEjQ1TNDVDYNkBVhFoJnfU.jpg?scale-down-to=1024"
-            />
-          </div>
-        </li>
-        <li>
-          <div className="partner">
-            <h3>Neon Horizons</h3>
-            <p className="partner-details">
-              <span>Brand, Product</span><span>2025</span>
-            </p>
-            <img
-              src="https://framerusercontent.com/images/WtDkhEjQ1TNDVDYNkBVhFoJnfU.jpg?scale-down-to=1024"
-              alt="Neon Horizons"
-              className="partner-image"
-              width="500px"
-              height="370px"
-              data-image="https://framerusercontent.com/images/WtDkhEjQ1TNDVDYNkBVhFoJnfU.jpg?scale-down-to=1024"
-            />
-          </div>
-        </li>
+        {partnersData.map((partner) => (
+          <li key={partner.id}>
+            <div className="partner">
+              <h3>{partner.name}</h3>
+              <p className="partner-details">
+                <span>{partner.details}</span><span>{partner.year}</span>
+              </p>
+              <img
+                src={partner.image}
+                alt={partner.name}
+                className="partner-image"
+                width="500px"
+                height="370px"
+                data-image={partner.image}
+              />
+            </div>
+          </li>
+        ))}
       </ul>
     </div>
-  )
-}
+  );
+};
 
-export default Partners
+export default Partners;
