@@ -1,0 +1,293 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 1912 506" width="1912"
+  height="506"
+  preserveAspectRatio="xMidYMid slice"
+  style="width: 100%; height: 100%; transform: translate3d(0px, 0px, 0px);">
+  <defs>
+    <clipPath id="__lottie_element_284">
+      <rect width="1912" height="506" x="0" y="0"></rect>
+    </clipPath>
+    <clipPath id="__lottie_element_289">
+      <path d="M0,0 L956,0 L956,508 L0,508z"></path>
+    </clipPath>
+    <clipPath id="__lottie_element_294">
+      <path d="M0,0 L64,0 L64,508 L0,508z"></path>
+    </clipPath>
+    <clipPath id="__lottie_element_300">
+      <path d="M0,0 L328,0 L328,656 L0,656z"></path>
+    </clipPath>
+    <clipPath id="__lottie_element_309">
+      <path d="M0,0 L328,0 L328,656 L0,656z"></path>
+    </clipPath>
+    <clipPath id="__lottie_element_318">
+      <path d="M0,0 L157,0 L157,508 L0,508z"></path>
+    </clipPath>
+    <clipPath id="__lottie_element_324">
+      <path d="M0,0 L328,0 L328,656 L0,656z"></path>
+    </clipPath>
+    <clipPath id="__lottie_element_333">
+      <path d="M0,0 L328,0 L328,656 L0,656z"></path>
+    </clipPath>
+    <clipPath id="__lottie_element_342">
+      <path d="M0,0 L208,0 L208,508 L0,508z"></path>
+    </clipPath>
+    <clipPath id="__lottie_element_348">
+      <path d="M0,0 L328,0 L328,656 L0,656z"></path>
+    </clipPath>
+    <clipPath id="__lottie_element_357">
+      <path d="M0,0 L328,0 L328,656 L0,656z"></path>
+    </clipPath>
+    <clipPath id="__lottie_element_366">
+      <path d="M0,0 L250,0 L250,508 L0,508z"></path>
+    </clipPath>
+    <clipPath id="__lottie_element_372">
+      <path d="M0,0 L328,0 L328,656 L0,656z"></path>
+    </clipPath>
+    <clipPath id="__lottie_element_381">
+      <path d="M0,0 L328,0 L328,656 L0,656z"></path>
+    </clipPath>
+    <clipPath id="__lottie_element_390">
+      <path d="M0,0 L320,0 L320,508 L0,508z"></path>
+    </clipPath>
+    <clipPath id="__lottie_element_396">
+      <path d="M0,0 L328,0 L328,656 L0,656z"></path>
+    </clipPath>
+    <clipPath id="__lottie_element_405">
+      <path d="M0,0 L328,0 L328,656 L0,656z"></path>
+    </clipPath>
+    <clipPath id="__lottie_element_414">
+      <path d="M0,0 L956,0 L956,508 L0,508z"></path>
+    </clipPath>
+    <clipPath id="__lottie_element_419">
+      <path d="M0,0 L64,0 L64,508 L0,508z"></path>
+    </clipPath>
+    <clipPath id="__lottie_element_425">
+      <path d="M0,0 L328,0 L328,656 L0,656z"></path>
+    </clipPath>
+    <clipPath id="__lottie_element_434">
+      <path d="M0,0 L328,0 L328,656 L0,656z"></path>
+    </clipPath>
+    <clipPath id="__lottie_element_443">
+      <path d="M0,0 L157,0 L157,508 L0,508z"></path>
+    </clipPath>
+    <clipPath id="__lottie_element_449">
+      <path d="M0,0 L328,0 L328,656 L0,656z"></path>
+    </clipPath>
+    <clipPath id="__lottie_element_458">
+      <path d="M0,0 L328,0 L328,656 L0,656z"></path>
+    </clipPath>
+    <clipPath id="__lottie_element_467">
+      <path d="M0,0 L208,0 L208,508 L0,508z"></path>
+    </clipPath>
+    <clipPath id="__lottie_element_473">
+      <path d="M0,0 L328,0 L328,656 L0,656z"></path>
+    </clipPath>
+    <clipPath id="__lottie_element_482">
+      <path d="M0,0 L328,0 L328,656 L0,656z"></path>
+    </clipPath>
+    <clipPath id="__lottie_element_491">
+      <path d="M0,0 L250,0 L250,508 L0,508z"></path>
+    </clipPath>
+    <clipPath id="__lottie_element_497">
+      <path d="M0,0 L328,0 L328,656 L0,656z"></path>
+    </clipPath>
+    <clipPath id="__lottie_element_506">
+      <path d="M0,0 L328,0 L328,656 L0,656z"></path>
+    </clipPath>
+    <clipPath id="__lottie_element_515">
+      <path d="M0,0 L320,0 L320,508 L0,508z"></path>
+    </clipPath>
+    <clipPath id="__lottie_element_521">
+      <path d="M0,0 L328,0 L328,656 L0,656z"></path>
+    </clipPath>
+    <clipPath id="__lottie_element_530">
+      <path d="M0,0 L328,0 L328,656 L0,656z"></path>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#__lottie_element_284)">
+    <g transform="matrix(1,0,0,1,0,0)" opacity="1" style="display: block;">
+      <path fill="rgb(0,0,0)" fill-opacity="1"
+        d=" M1912,0 C1912,0 0,0 0,0 C0,0 0,506 0,506 C0,506 1912,506 1912,506 C1912,506 1912,0 1912,0z"></path>
+    </g>
+    <g clip-path="url(#__lottie_element_414)" transform="matrix(1,0,0,1,0,-1)" opacity="1"
+      style="display: block;">
+      <g clip-path="url(#__lottie_element_515)" transform="matrix(1,0,0,1,657,0)" opacity="1"
+        style="display: block;">
+        <g clip-path="url(#__lottie_element_530)" transform="matrix(1,0,0,1,4.8583984375,-74.25)"
+          opacity="1" style="display: block;">
+          <g transform="matrix(1,0,0,1,-328,0)" opacity="1" style="display: block;">
+            <path fill="rgb(217,217,217)" fill-opacity="1"
+              d=" M328,0 C509.023193359375,0 656,146.976806640625 656,328 C656,509.023193359375 509.023193359375,656 328,656 C146.976806640625,656 0,509.023193359375 0,328 C0,146.976806640625 146.976806640625,0 328,0z"></path>
+          </g>
+        </g>
+        <g clip-path="url(#__lottie_element_521)"
+          transform="matrix(1,0,0,1,-322.1416015625,-74.25)"
+          opacity="1" style="display: block;">
+          <g transform="matrix(1,0,0,1,-328,0)" opacity="1" style="display: block;">
+            <path fill="rgb(217,217,217)" fill-opacity="1"
+              d=" M328,0 C509.023193359375,0 656,146.976806640625 656,328 C656,509.023193359375 509.023193359375,656 328,656 C146.976806640625,656 0,509.023193359375 0,328 C0,146.976806640625 146.976806640625,0 328,0z"></path>
+          </g>
+        </g>
+      </g>
+      <g clip-path="url(#__lottie_element_491)" transform="matrix(1,0,0,1,413,0)" opacity="1"
+        style="display: block;">
+        <g clip-path="url(#__lottie_element_506)" transform="matrix(1,0,0,1,-65.1416015625,-74)"
+          opacity="1" style="display: block;">
+          <g transform="matrix(1,0,0,1,-328,0)" opacity="1" style="display: block;">
+            <path fill="rgb(217,217,217)" fill-opacity="1"
+              d=" M328,0 C509.023193359375,0 656,146.976806640625 656,328 C656,509.023193359375 509.023193359375,656 328,656 C146.976806640625,656 0,509.023193359375 0,328 C0,146.976806640625 146.976806640625,0 328,0z"></path>
+          </g>
+        </g>
+        <g clip-path="url(#__lottie_element_497)" transform="matrix(1,0,0,1,-392.1416015625,-74)"
+          opacity="1" style="display: block;">
+          <g transform="matrix(1,0,0,1,-328,0)" opacity="1" style="display: block;">
+            <path fill="rgb(217,217,217)" fill-opacity="1"
+              d=" M328,0 C509.023193359375,0 656,146.976806640625 656,328 C656,509.023193359375 509.023193359375,656 328,656 C146.976806640625,656 0,509.023193359375 0,328 C0,146.976806640625 146.976806640625,0 328,0z"></path>
+          </g>
+        </g>
+      </g>
+      <g clip-path="url(#__lottie_element_467)" transform="matrix(1,0,0,1,210,0)" opacity="1"
+        style="display: block;">
+        <g clip-path="url(#__lottie_element_482)" transform="matrix(1,0,0,1,-107.1416015625,-74)"
+          opacity="1" style="display: block;">
+          <g transform="matrix(1,0,0,1,-328,0)" opacity="1" style="display: block;">
+            <path fill="rgb(217,217,217)" fill-opacity="1"
+              d=" M328,0 C509.023193359375,0 656,146.976806640625 656,328 C656,509.023193359375 509.023193359375,656 328,656 C146.976806640625,656 0,509.023193359375 0,328 C0,146.976806640625 146.976806640625,0 328,0z"></path>
+          </g>
+        </g>
+        <g clip-path="url(#__lottie_element_473)" transform="matrix(1,0,0,1,-434.1416015625,-74)"
+          opacity="1" style="display: block;">
+          <g transform="matrix(1,0,0,1,-328,0)" opacity="1" style="display: block;">
+            <path fill="rgb(217,217,217)" fill-opacity="1"
+              d=" M328,0 C509.023193359375,0 656,146.976806640625 656,328 C656,509.023193359375 509.023193359375,656 328,656 C146.976806640625,656 0,509.023193359375 0,328 C0,146.976806640625 146.976806640625,0 328,0z"></path>
+          </g>
+        </g>
+      </g>
+      <g clip-path="url(#__lottie_element_443)" transform="matrix(1,0,0,1,58,0)" opacity="1"
+        style="display: block;">
+        <g clip-path="url(#__lottie_element_458)" transform="matrix(1,0,0,1,-158.1416015625,-74)"
+          opacity="1" style="display: block;">
+          <g transform="matrix(1,0,0,1,-328,0)" opacity="1" style="display: block;">
+            <path fill="rgb(217,217,217)" fill-opacity="1"
+              d=" M328,0 C509.023193359375,0 656,146.976806640625 656,328 C656,509.023193359375 509.023193359375,656 328,656 C146.976806640625,656 0,509.023193359375 0,328 C0,146.976806640625 146.976806640625,0 328,0z"></path>
+          </g>
+        </g>
+        <g clip-path="url(#__lottie_element_449)" transform="matrix(1,0,0,1,-485.1416015625,-74)"
+          opacity="1" style="display: block;">
+          <g transform="matrix(1,0,0,1,-328,0)" opacity="1" style="display: block;">
+            <path fill="rgb(217,217,217)" fill-opacity="1"
+              d=" M328,0 C509.023193359375,0 656,146.976806640625 656,328 C656,509.023193359375 509.023193359375,656 328,656 C146.976806640625,656 0,509.023193359375 0,328 C0,146.976806640625 146.976806640625,0 328,0z"></path>
+          </g>
+        </g>
+      </g>
+      <g clip-path="url(#__lottie_element_419)" transform="matrix(1,0,0,1,0,0)" opacity="1"
+        style="display: block;">
+        <g clip-path="url(#__lottie_element_434)" transform="matrix(1,0,0,1,-251.1416015625,-74)"
+          opacity="1" style="display: block;">
+          <g transform="matrix(1,0,0,1,-328,0)" opacity="1" style="display: block;">
+            <path fill="rgb(217,217,217)" fill-opacity="1"
+              d=" M328,0 C509.023193359375,0 656,146.976806640625 656,328 C656,509.023193359375 509.023193359375,656 328,656 C146.976806640625,656 0,509.023193359375 0,328 C0,146.976806640625 146.976806640625,0 328,0z"></path>
+          </g>
+        </g>
+        <g clip-path="url(#__lottie_element_425)" transform="matrix(1,0,0,1,-578.1416015625,-74)"
+          opacity="1" style="display: block;">
+          <g transform="matrix(1,0,0,1,-328,0)" opacity="1" style="display: block;">
+            <path fill="rgb(217,217,217)" fill-opacity="1"
+              d=" M328,0 C509.023193359375,0 656,146.976806640625 656,328 C656,509.023193359375 509.023193359375,656 328,656 C146.976806640625,656 0,509.023193359375 0,328 C0,146.976806640625 146.976806640625,0 328,0z"></path>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g clip-path="url(#__lottie_element_289)" transform="matrix(-1,0,0,-1,1912,507)" opacity="1"
+      style="display: block;">
+      <g clip-path="url(#__lottie_element_390)" transform="matrix(1,0,0,1,657,0)" opacity="1"
+        style="display: block;">
+        <g clip-path="url(#__lottie_element_405)" transform="matrix(1,0,0,1,4.8583984375,-74.25)"
+          opacity="1" style="display: block;">
+          <g transform="matrix(1,0,0,1,-328,0)" opacity="1" style="display: block;">
+            <path fill="rgb(217,217,217)" fill-opacity="1"
+              d=" M328,0 C509.023193359375,0 656,146.976806640625 656,328 C656,509.023193359375 509.023193359375,656 328,656 C146.976806640625,656 0,509.023193359375 0,328 C0,146.976806640625 146.976806640625,0 328,0z"></path>
+          </g>
+        </g>
+        <g clip-path="url(#__lottie_element_396)"
+          transform="matrix(1,0,0,1,-322.1416015625,-74.25)"
+          opacity="1" style="display: block;">
+          <g transform="matrix(1,0,0,1,-328,0)" opacity="1" style="display: block;">
+            <path fill="rgb(217,217,217)" fill-opacity="1"
+              d=" M328,0 C509.023193359375,0 656,146.976806640625 656,328 C656,509.023193359375 509.023193359375,656 328,656 C146.976806640625,656 0,509.023193359375 0,328 C0,146.976806640625 146.976806640625,0 328,0z"></path>
+          </g>
+        </g>
+      </g>
+      <g clip-path="url(#__lottie_element_366)" transform="matrix(1,0,0,1,413,0)" opacity="1"
+        style="display: block;">
+        <g clip-path="url(#__lottie_element_381)" transform="matrix(1,0,0,1,-65.1416015625,-74)"
+          opacity="1" style="display: block;">
+          <g transform="matrix(1,0,0,1,-328,0)" opacity="1" style="display: block;">
+            <path fill="rgb(217,217,217)" fill-opacity="1"
+              d=" M328,0 C509.023193359375,0 656,146.976806640625 656,328 C656,509.023193359375 509.023193359375,656 328,656 C146.976806640625,656 0,509.023193359375 0,328 C0,146.976806640625 146.976806640625,0 328,0z"></path>
+          </g>
+        </g>
+        <g clip-path="url(#__lottie_element_372)" transform="matrix(1,0,0,1,-392.1416015625,-74)"
+          opacity="1" style="display: block;">
+          <g transform="matrix(1,0,0,1,-328,0)" opacity="1" style="display: block;">
+            <path fill="rgb(217,217,217)" fill-opacity="1"
+              d=" M328,0 C509.023193359375,0 656,146.976806640625 656,328 C656,509.023193359375 509.023193359375,656 328,656 C146.976806640625,656 0,509.023193359375 0,328 C0,146.976806640625 146.976806640625,0 328,0z"></path>
+          </g>
+        </g>
+      </g>
+      <g clip-path="url(#__lottie_element_342)" transform="matrix(1,0,0,1,210,0)" opacity="1"
+        style="display: block;">
+        <g clip-path="url(#__lottie_element_357)" transform="matrix(1,0,0,1,-107.1416015625,-74)"
+          opacity="1" style="display: block;">
+          <g transform="matrix(1,0,0,1,-328,0)" opacity="1" style="display: block;">
+            <path fill="rgb(217,217,217)" fill-opacity="1"
+              d=" M328,0 C509.023193359375,0 656,146.976806640625 656,328 C656,509.023193359375 509.023193359375,656 328,656 C146.976806640625,656 0,509.023193359375 0,328 C0,146.976806640625 146.976806640625,0 328,0z"></path>
+          </g>
+        </g>
+        <g clip-path="url(#__lottie_element_348)" transform="matrix(1,0,0,1,-434.1416015625,-74)"
+          opacity="1" style="display: block;">
+          <g transform="matrix(1,0,0,1,-328,0)" opacity="1" style="display: block;">
+            <path fill="rgb(217,217,217)" fill-opacity="1"
+              d=" M328,0 C509.023193359375,0 656,146.976806640625 656,328 C656,509.023193359375 509.023193359375,656 328,656 C146.976806640625,656 0,509.023193359375 0,328 C0,146.976806640625 146.976806640625,0 328,0z"></path>
+          </g>
+        </g>
+      </g>
+      <g clip-path="url(#__lottie_element_318)" transform="matrix(1,0,0,1,58,0)" opacity="1"
+        style="display: block;">
+        <g clip-path="url(#__lottie_element_333)" transform="matrix(1,0,0,1,-158.1416015625,-74)"
+          opacity="1" style="display: block;">
+          <g transform="matrix(1,0,0,1,-328,0)" opacity="1" style="display: block;">
+            <path fill="rgb(217,217,217)" fill-opacity="1"
+              d=" M328,0 C509.023193359375,0 656,146.976806640625 656,328 C656,509.023193359375 509.023193359375,656 328,656 C146.976806640625,656 0,509.023193359375 0,328 C0,146.976806640625 146.976806640625,0 328,0z"></path>
+          </g>
+        </g>
+        <g clip-path="url(#__lottie_element_324)" transform="matrix(1,0,0,1,-485.1416015625,-74)"
+          opacity="1" style="display: block;">
+          <g transform="matrix(1,0,0,1,-328,0)" opacity="1" style="display: block;">
+            <path fill="rgb(217,217,217)" fill-opacity="1"
+              d=" M328,0 C509.023193359375,0 656,146.976806640625 656,328 C656,509.023193359375 509.023193359375,656 328,656 C146.976806640625,656 0,509.023193359375 0,328 C0,146.976806640625 146.976806640625,0 328,0z"></path>
+          </g>
+        </g>
+      </g>
+      <g clip-path="url(#__lottie_element_294)" transform="matrix(1,0,0,1,0,0)" opacity="1"
+        style="display: block;">
+        <g clip-path="url(#__lottie_element_309)" transform="matrix(1,0,0,1,-251.1416015625,-74)"
+          opacity="1" style="display: block;">
+          <g transform="matrix(1,0,0,1,-328,0)" opacity="1" style="display: block;">
+            <path fill="rgb(217,217,217)" fill-opacity="1"
+              d=" M328,0 C509.023193359375,0 656,146.976806640625 656,328 C656,509.023193359375 509.023193359375,656 328,656 C146.976806640625,656 0,509.023193359375 0,328 C0,146.976806640625 146.976806640625,0 328,0z"></path>
+          </g>
+        </g>
+        <g clip-path="url(#__lottie_element_300)" transform="matrix(1,0,0,1,-578.1416015625,-74)"
+          opacity="1" style="display: block;">
+          <g transform="matrix(1,0,0,1,-328,0)" opacity="1" style="display: block;">
+            <path fill="rgb(217,217,217)" fill-opacity="1"
+              d=" M328,0 C509.023193359375,0 656,146.976806640625 656,328 C656,509.023193359375 509.023193359375,656 328,656 C146.976806640625,656 0,509.023193359375 0,328 C0,146.976806640625 146.976806640625,0 328,0z"></path>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+
+</svg>

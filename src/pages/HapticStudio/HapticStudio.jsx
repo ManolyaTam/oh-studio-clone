@@ -8,8 +8,14 @@ const HapticStudio = () => {
   return (
     <div className="haptic-studio">
       <Header />
+      <img src="/svg/black-white.svg" alt="" />
       <div className="haptic-content">
         <Pricing />
+        <img
+          src="/svg/black-white.svg"
+          style={{ position: "relative", width: "100vw" }}
+          alt=""
+        />
         <Careers />
       </div>
       <Footer />
