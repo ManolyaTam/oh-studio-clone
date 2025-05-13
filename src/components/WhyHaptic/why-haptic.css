@@ -1,0 +1,46 @@
+.why-haptic .top {
+  height: 572px;
+  background-color: #FBBA10;
+  padding: 40px;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.why-haptic .top p {
+  font-size: 64px;
+  font-family: 'Times New Roman', Times, serif;
+  letter-spacing: -0.1rem;
+  line-height: 4.1rem;
+  margin: 0;
+}
+
+.why-companies-container {
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+  height: 877px;
+  position: relative;
+}
+
+.why-companies {
+  width: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.why-companies .carosel-item {
+  width: 50%;
+  height: 600px;
+  box-sizing: border-box;
+}
+
+.why-companies .carosel-item>img {
+  width: 100%;
+  height: 100%;
+}

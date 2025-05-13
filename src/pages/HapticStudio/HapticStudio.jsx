@@ -4,6 +4,7 @@ import Pricing from "../../components/Pricing/Pricing.jsx";
 import Careers from "../../components/Careers/Careers.jsx";
 import Footer from "../../components/Footer/Footer.jsx";
 import Carosel from "../../components/Carosel/Carosel.jsx";
+import WhyHaptic from "../../components/WhyHaptic/WhyHaptic.jsx";
 
 const HapticStudio = () => {
   return (
@@ -11,6 +12,7 @@ const HapticStudio = () => {
       <Header />
       <Carosel />
       <img src="/svg/black-white.svg" alt="" style={{width: "100%", marginTop: 120}} />
+      <WhyHaptic />
       <div className="haptic-content">
         <Pricing />
         <img
