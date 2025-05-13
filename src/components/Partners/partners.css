@@ -1,10 +1,11 @@
 .partners {
-  padding: 10px 40px 160px;  
+  padding: 10px 40px 160px;
+  position: relative
 }
 
 .partners .bullet-point {
   color: black;
-  font-weight: bold; 
+  font-weight: bold;
   margin-bottom: 100px;
 }
 
@@ -31,6 +32,11 @@
   transition: all 0.3s ease;
 }
 
+.partner:hover .partner-image {
+  top: 0;
+  /* transition: all 0.3s ease; */
+}
+
 .partners li p {
   font-size: 16px;
   font-weight: lighter;
@@ -42,4 +48,26 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.partner-image {
+  position: absolute;
+  position: absolute;
+  top: 70px;
+  left: 37%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.partner-image {
+  position: absolute;
+  top: 100px;
+  left: 60%;
+  opacity: 0;
+  transition: all 0.4s ease;
+  pointer-events: none;
+}
+
+.partner:hover .partner-image {
+  opacity: 1;
 }
