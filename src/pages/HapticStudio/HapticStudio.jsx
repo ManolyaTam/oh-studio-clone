@@ -5,14 +5,16 @@ import Careers from "../../components/Careers/Careers.jsx";
 import Footer from "../../components/Footer/Footer.jsx";
 import Carosel from "../../components/Carosel/Carosel.jsx";
 import WhyHaptic from "../../components/WhyHaptic/WhyHaptic.jsx";
+import CompaniesCarosel from "../../components/CompaniesCarosel/CompaniesCarosel.jsx";
 
 const HapticStudio = () => {
   return (
     <div className="haptic-studio">
       <Header />
       <Carosel />
-      <img src="/svg/black-white.svg" alt="" style={{width: "100%", marginTop: 120}} />
+      <img src="/svg/black-white.svg" alt="" style={{ width: "100%", marginTop: 120 }} />
       <WhyHaptic />
+      <CompaniesCarosel />
       <div className="haptic-content">
         <Pricing />
         <img
