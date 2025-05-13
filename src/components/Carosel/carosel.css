@@ -1,0 +1,24 @@
+.carosel-container {
+  width: 100%;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  margin: 0;
+  height: 877px;
+  position: relative;
+}
+
+.carosel {
+  margin: 0;
+  display: flex;
+  width: max-content;
+  position: relative;
+}
+
+.carosel-item {
+  width: 677px;
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}

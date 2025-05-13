@@ -1,0 +1,59 @@
+.carosel-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 877px;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.carosel-item-header {
+  padding-top: 5px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: end;
+  flex: none;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 20px;
+  height: min-content;
+  height: 40px;
+  width: 100%;
+  margin-bottom: 120px;
+  margin-left: 60px;
+  margin-top: 20px;
+}
+
+.carosel-item-info {
+  height: 100%;
+}
+
+.carosel-item-header p,
+.carosel-item-header h3 {
+  margin: 0;
+}
+
+.carosel-item-header .company-name {
+  font-size: 14px;
+  letter-spacing: 0.01em;
+  font-weight: bold;
+  color: black
+}
+
+.carosel-item-header .description {
+  font-size: 14px;
+  letter-spacing: 0.04em;
+  margin:0;
+}
+
+.carosel-item-header img {
+  border-radius: 8px;
+}
+
+.carosel-item>img {
+  width: 691px ;
+  height: 797px;
+  object-fit: cover;
+  object-position: top;
+  /* overflow: hidden; */
+}
