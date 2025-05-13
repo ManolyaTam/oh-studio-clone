@@ -1,4 +1,5 @@
 import "./haptic-header.css"
+import JobCard from "../JobCard/JobCard"
 
 const HapticHeader = () => {
   return (
@@ -22,6 +23,7 @@ const HapticHeader = () => {
         />
         lasting impact
       </p>
+      <JobCard />
     </div>
   )
 }

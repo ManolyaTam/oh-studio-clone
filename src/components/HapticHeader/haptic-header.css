@@ -9,6 +9,7 @@
   justify-content: space-between;
   align-items: flex-start;
   box-sizing: border-box;
+  position: relative;
 }
 
 .haptic-header p {
@@ -17,4 +18,10 @@
   letter-spacing: -0.1rem;
   line-height: 4.1rem;
   margin: 0;
+}
+
+.haptic-header .job-card {
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
 }

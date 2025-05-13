@@ -1,0 +1,62 @@
+.job-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: white;
+  padding: 8px 16px 8px;
+  width: 350px;
+  height: 100px;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+}
+
+.job-card:hover {
+  background: black;
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 4px;
+  flex-shrink: 0;
+}
+
+.info {
+  flex-grow: 1;
+  margin-left: 16px;
+}
+
+.hiring {
+  color: grey;
+  font-size: 20px !important;
+  font-family: "Helvetica Now Display Bold", sans-serif !important;
+  height: 46px;
+}
+
+.title {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  transition: color 0.3s ease;
+}
+
+.job-card:hover .title {
+  color: white;
+}
+
+.plus-btn {
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+  background: #eee;
+  font-size: 32px;
+  cursor: pointer;
+}
+
+.job-card:hover .plus-btn {
+  background: white;
+}
